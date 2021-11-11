@@ -114,8 +114,8 @@ body {
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
-    -webkit-column-gap: 1rem;
-            column-gap: 1rem;
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
         grid-template-areas: ". f ." "s f t" "s o t" ". o .";
   }
   .card:nth-of-type(1) {
